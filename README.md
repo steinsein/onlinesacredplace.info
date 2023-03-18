@@ -8,7 +8,7 @@
 <br/>
 
 ## 댓글 수집 방법
-<p>python의 Selenium을 이용하여 댓글을 스크래핑함</p>
+<p>python의 selenium을 이용하여 댓글을 스크래핑함</p>
 <br/>
 
 ## 댓글 분석 방법<br/>
