@@ -1,2 +1,2 @@
-# OnlineHolyLand
+# OnlineHolyLand.info
 이 저장소는 온라인 성지 개념에 관한 연구에서 활용된 기술적인 정보들을 공유하기 위한 곳입니다.
