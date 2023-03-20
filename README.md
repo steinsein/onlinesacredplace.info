@@ -5,7 +5,7 @@
 <br/>
 ## 사용 데이터<br/>
 <p>디시인사이드 Hit갤의 '온라인 성지'로 여겨지는 게시물의 댓글과 Hit갤의 주요 인기 게시물</p>
-<br/>
+
 <a href="https://gall.dcinside.com/board/view/?id=hit&no=12" target="_blank">오늘 산 중저가형 모델 싸게 팝니다..</a>(쿠키닷컴 게시물)
 <br/><a href="https://gall.dcinside.com/board/view/?id=hit&no=13" target="_blank">(엑스브이-3) 내 자취방에서 옹달샘 발견!!!!!!!!!!!</a>(옹달샘)
 <br/><a href="https://gall.dcinside.com/board/view/?id=hit&no=14" target="_blank">이 사진이 실제인지 합성인지 판단 부탁드립니다.</a>(사실? 합성?)
