@@ -29,7 +29,7 @@
 
 ## 댓글 분석 방법<br/>
 <p>python의 konlpy의 OKT 형태소 분석기</p>
-<br/>
+<br/>"open-korean-text”, https://github.com/open-korean-text/open-korean-text
 
 ## 분석 내용
 '쿠키닷컴' 게시물의 댓글에 연도별 빈도값 높은 단어들 추출, 연도별 댓글의 TF-IDF 가중치 부여<br/>
