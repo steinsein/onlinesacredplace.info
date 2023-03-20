@@ -37,5 +37,5 @@
 디시인사이드 Hit갤의 주요 게시물(조회수, 추천수, 댓글수 상위) 12건에 대한 '성지' 및 '-해주세요' 사용 빈도 및 시기 확인
 <br/><br/>
 
-## 사용 파이썬 IDE<br/>
+## 파이썬 사용 환경(IDE)<br/>
 google colab(NLP), PyCham(scrapping)
