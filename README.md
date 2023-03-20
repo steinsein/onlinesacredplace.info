@@ -6,6 +6,8 @@
 ## 사용 데이터<br/>
 <p>디시인사이드 Hit갤의 '온라인 성지'로 여겨지는 게시물의 댓글과 Hit갤의 주요 인기 게시물</p>
 <br/>
+<a href="https://gall.dcinside.com/board/view/?id=hit&no=12" target="_blank">오늘 산 중저가형 모델 싸게 팝니다..</a>
+
 
 ## 댓글 수집 방법
 <p>python의 selenium을 이용하여 댓글을 스크래핑함</p>
