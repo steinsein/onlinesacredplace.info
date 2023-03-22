@@ -38,7 +38,7 @@
 <br/><br/>
 
 ## 파이썬 사용 환경(IDE)<br/>
-google colab(NLP), PyCham(scrapping)
+google colab(graph, NLP), PyCham(scrapping)
 <br/><br/>
 
 ## 분석 결과
