@@ -28,6 +28,7 @@
 <br/>
 기본 코드
 ```python
+
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -38,12 +39,9 @@ import time
 import pandas as pd
 import openpyxl
 
-# 쿠키닷컴 게시글 사이트 주소
 URL = "https://gall.dcinside.com/board/view/?id=hit&no=12&page=1"
-# 크롬드라이버 경로 설정
 chromedriver = "./chromedriver.exe"
 
-# 크롬드라이버 설정
 def driver_open(chromedriver):
     options = webdriver.ChromeOptions()
     options.add_argument("window-size=1920x1080")
@@ -52,8 +50,6 @@ def driver_open(chromedriver):
     driver = webdriver.Chrome(chromedriver, options=options)
     return driver
 
-
-# 댓글 페이지 수 구하기
 def get_last_page(URL):
     driver = driver_open(chromedriver)
     driver.get(URL)
@@ -61,8 +57,6 @@ def get_last_page(URL):
     n = int(last_page.get_attribute('href')[-8:-5])
     return n
 
-
-# 전체 댓글 수집
 def scrapping_comments(URL):
     n = get_last_page(URL)
     print(f"마지막 페이지:{n}")
@@ -81,7 +75,7 @@ def scrapping_comments(URL):
         comments = comment_box.find_all("li")
         for comment in comments:
             if comment.get("class") == ["ub-content"]:
-                #삭제된 댓글 제외
+
                 if comment.find(class_="del_reply") is None:
                     nick = comment.find("div","cmt_nickbox").text
                     nicks.append(nick)
@@ -91,7 +85,7 @@ def scrapping_comments(URL):
                     dates.append(date)
                 else:
                     pass
-            # 닉네임이 댓글도리인 경우 제외
+          
             elif comment.get('class') == ['ub-content','dory']:
                 pass
             else:
@@ -106,7 +100,6 @@ def scrapping_comments(URL):
     }
     return comment_dics
 
-#엑셀, csv 파일로 저장
 def save_data(dics,name):
     df = pd.DataFrame(dics)
     df.to_csv(f"./{name}.csv")
