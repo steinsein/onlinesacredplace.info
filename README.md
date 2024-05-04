@@ -123,5 +123,5 @@ def save_data(dics,name):
 google colab(graph, NLP), PyCham(scrapping)
 <br/><br/>
 
-## 분석 결과
-추후 업데이트 예정
+## 발표 논문
+<a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002987722" target="_blank">성지 밈(聖地 meme) 소원 댓글의 유행과 온라인 종교문화상의 함의: ‘쿠키 닷컴’ 게시물 댓글 텍스트 분석을 중심으로</a>
